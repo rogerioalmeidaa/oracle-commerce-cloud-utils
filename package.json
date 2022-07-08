@@ -1,0 +1,23 @@
+{
+  "name": "version",
+  "version": "0.0.1",
+  "private": true,
+  "main": "app/index.js",
+  "authenticatedUrls": [],
+  "publicUrls": [
+    "/ccstorex/custom/test/version",
+    "/ccstorex/custom/test/ping"
+  ],
+  "scripts": {
+    "start": "node app/index.js",
+    "dev": "nodemon --exec node app/index.js"
+  },
+  "dependencies": {
+    "winston-loggly-bulk": "^3.1.0"
+  },
+  "devDependencies": {
+    "express": "latest",
+    "winston": "latest",
+    "nodemon": "latest"
+  }
+}
